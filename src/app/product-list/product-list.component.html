@@ -1,0 +1,16 @@
+<div class="container-fluid px-5 py-4">
+    <div class="row">
+        <div class="col-md-3 mb-4" *ngFor="let product of products">
+            <div class="card">
+                <img [src]="product.image" class="card-img-top" alt="{{ product.name }}">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Marca: {{ product.brand }}</li>
+                    <li class="list-group-item">Precio: {{ product.price | currency:'USD':true:'1.2-2' }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
