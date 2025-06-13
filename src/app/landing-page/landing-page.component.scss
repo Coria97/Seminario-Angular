@@ -1,0 +1,61 @@
+/* Hero Section */
+// --orange-primary: #f97316;
+// --orange-hover: #ea580c;
+// --orange-light: #fed7aa;
+
+.hero-section {
+    background: linear-gradient(135deg, #f97316, #ea580c);
+    color: white;
+    padding: 80px 0;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #fed7aa;
+}
+
+.btn-hero-primary {
+    background-color: white;
+    color: #f97316;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-hero-primary:hover {
+    background-color: #fed7aa;
+    color: #ea580c;
+}
+
+.btn-hero-outline {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 24px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-hero-outline:hover {
+    background-color: white;
+    color: #ea580c;
+}
+
+.carousel-img-bg {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+    padding: 1.5rem;
+    object-fit: contain;
+    height: 400px;
+}

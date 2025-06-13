@@ -1,46 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <img src="assets/bag_sport_padel_icon.png" alt="Padel Store" width="50" height="50">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Coleccion 2025</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Paletas</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                        Otros productos
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Paletas</a></li>
-                        <li><a class="dropdown-item" href="#">Grips</a></li>
-                        <li><a class="dropdown-item" href="#">Zapatillas</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nosotros</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-        </div>
-    </div>
-</nav>
+<app-navbar></app-navbar>
 
-<app-product-list></app-product-list>
+<router-outlet></router-outlet>
 
-<footer class="bg-light text-center text-lg-start bottom">
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2025 Padel Store
-        <a class="text-dark" href="#">Privacy Policy</a>
-    </div>
-</footer>
+<app-footer></app-footer>
