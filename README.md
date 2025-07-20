@@ -4,15 +4,15 @@ Se eligió de temática una tienda de padel, en la cual se podrán encontrar div
 
 ## Datos del Estudiante
 
-- **Nombre y Apellido:** [Tu Nombre y Apellido]
-- **DNI:** [Tu DNI]
-- **Email:** [tu.email@ejemplo.com]
-- **Sede:** [Tandil/Olavarría/etc]
+- **Nombre y Apellido:** Santiago Coria
+- **DNI:** 40224388
+- **Email:** santiagocoria@live.com.ar
+- **Sede:** Tandil
 
 ## Enlaces del Proyecto
 
-- **Repositorio GitHub:** [https://github.com/Coria97/Seminario-Angular](https://github.com/Coria97/Seminario-Angular)
-- **StackBlitz (Editable):** [Agregar enlace de StackBlitz aquí - /edit/angular-ivy-nn]
+- **Repositorio GitHub:** [Repositorio](https://github.com/Coria97/Seminario-Angular)
+- **StackBlitz (Editable):** [StackBlitz](https://stackblitz.com/~/github.com/Coria97/Seminario-Angular)
 
 ## Imagenes de las views del proyecto
 
