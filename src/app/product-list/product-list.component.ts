@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { mockProducts } from '../product-list/product-list.mock';
 import { Product } from './product.model';
+import { ProductDataService } from '../product-data.service';
 import { CartService } from '../cart.service';
 
 @Component({
@@ -13,14 +13,14 @@ import { CartService } from '../cart.service';
 export class ProductListComponent implements OnInit{
   products!: Product[];
 
-  // private beerDataService : BeerDataService
-  // constructor(private beerDataService : BeerDataService, private cartService: CartService) { } 
-  constructor(private cartService: CartService) { }
+  constructor(private productDataService: ProductDataService, private cartService: CartService) { }
 
   ngOnInit(): void {
-    this.products = mockProducts;
-  }    
-  
+    this.productDataService.getProducts().subscribe(products => {
+      this.products = products;
+    });
+  }
+
   calculateOfferPrice(product: Product): number {
     if (product.offer > 0) {
         return parseFloat((product.price * (1 - product.offer / 100)).toFixed(2));
