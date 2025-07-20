@@ -52,4 +52,7 @@ export class CartService {
     this._itemsSubject.next(this._items);
   }
 
+  getTotalItemsCount(): number {
+    return this._items.reduce((total, item) => total + item.quantity, 0);
+  }
 }

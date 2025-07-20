@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import {CartService} from "../cart.service";
 import {Product} from "../product-list/product.model";
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-shopping-cart',
@@ -8,15 +9,20 @@ import {Product} from "../product-list/product.model";
   templateUrl: './shopping-cart.component.html',
   styleUrl: './shopping-cart.component.scss'
 })
-export class ShoppingCartComponent implements OnInit {
+export class ShoppingCartComponent implements OnInit, OnDestroy {
   products: Product[] = []
+  private cartSubscription: Subscription = new Subscription();
 
   constructor(private cartService: CartService) { }
 
-  ngOnInit(): void {
-    this.cartService.items.subscribe(items => {
+  ngOnInit(): void {    
+    this.cartSubscription = this.cartService.items.subscribe(items => {
       this.products = items;
     });
+  }
+
+  ngOnDestroy(): void {
+    this.cartSubscription.unsubscribe();
   }
 
   totalPrice(product: Product): number {
