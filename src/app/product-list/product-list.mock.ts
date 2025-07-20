@@ -7,7 +7,8 @@ export const mockProducts = [
         size: 'Medium',
         image: 'assets/paleta_at10.webp',
         stock: 15,
-        price: 249.99
+        price: 249.99,
+        offer: 10
     },
     {
         name: 'Pala Junior',
@@ -17,7 +18,8 @@ export const mockProducts = [
         size: 'Small',
         image: 'assets/paleta_at10.webp',
         stock: 10,
-        price: 99.99
+        price: 99.99,
+        offer: 0
     },
     {
         name: 'Pala de Power',
@@ -27,9 +29,10 @@ export const mockProducts = [
         size: 'Large',
         image: 'assets/paleta_at10.webp',
         stock: 5,
-        price: 349.99
+        price: 349.99,
+        offer: 0
     },
-        {
+    {
         name: 'Pala Pro Carbon',
         description: 'Pala de pádel profesional de carbono, ligera y resistente.',
         type: 'Pala',
@@ -37,57 +40,63 @@ export const mockProducts = [
         size: 'Medium',
         image: 'assets/paleta_at10.webp',
         stock: 15,
-        price: 249.99
-    },
-    {
-        name: 'Pala Junior',
-        description: 'Pala de pádel para niños, ligera y fácil de manejar.',
-        type: 'Pala',
-        brand: "Nox",
-        size: 'Small',
-        image: 'assets/paleta_at10.webp',
-        stock: 10,
-        price: 99.99
-    },
-    {
-        name: 'Pala de Power',
-        description: 'Pala de pádel de alta potencia, para jugadores avanzados.',
-        type: 'Pala',
-        brand: "Nox",
-        size: 'Large',
-        image: 'assets/paleta_at10.webp',
-        stock: 5,
-        price: 349.99
-    },
-        {
-        name: 'Pala Pro Carbon',
-        description: 'Pala de pádel profesional de carbono, ligera y resistente.',
-        type: 'Pala',
-        brand: "Nox",
-        size: 'Medium',
-        image: 'assets/paleta_at10.webp',
-        stock: 15,
-        price: 249.99
-    },
-    {
-        name: 'Pala Junior',
-        description: 'Pala de pádel para niños, ligera y fácil de manejar.',
-        type: 'Pala',
-        brand: "Nox",
-        size: 'Small',
-        image: 'assets/paleta_at10.webp',
-        stock: 10,
-        price: 99.99
-    },
-    {
-        name: 'Pala de Power',
-        description: 'Pala de pádel de alta potencia, para jugadores avanzados.',
-        type: 'Pala',
-        brand: "Nox",
-        size: 'Large',
-        image: 'assets/paleta_at10.webp',
-        stock: 5,
-        price: 349.99
-    }
+        price: 249.99,
+        offer: 35  
 
+    },
+    {
+        name: 'Pala Junior',
+        description: 'Pala de pádel para niños, ligera y fácil de manejar.',
+        type: 'Pala',
+        brand: "Nox",
+        size: 'Small',
+        image: 'assets/paleta_at10.webp',
+        stock: 10,
+        price: 99.99,
+        offer: 0
+    },
+    {
+        name: 'Pala de Power',
+        description: 'Pala de pádel de alta potencia, para jugadores avanzados.',
+        type: 'Pala',
+        brand: "Nox",
+        size: 'Large',
+        image: 'assets/paleta_at10.webp',
+        stock: 5,
+        price: 349.99,
+        offer: 0
+    },
+    {
+        name: 'Pala Pro Carbon',
+        description: 'Pala de pádel profesional de carbono, ligera y resistente.',
+        type: 'Pala',
+        brand: "Nox",
+        size: 'Medium',
+        image: 'assets/paleta_at10.webp',
+        stock: 15,
+        price: 249.99,
+        offer: 10
+    },
+    {
+        name: 'Pala Junior',
+        description: 'Pala de pádel para niños, ligera y fácil de manejar.',
+        type: 'Pala',
+        brand: "Nox",
+        size: 'Small',
+        image: 'assets/paleta_at10.webp',
+        stock: 10,
+        price: 99.99,
+        offer: 5
+    },
+    {
+        name: 'Pala de Power',
+        description: 'Pala de pádel de alta potencia, para jugadores avanzados.',
+        type: 'Pala',
+        brand: "Nox",
+        size: 'Large',
+        image: 'assets/paleta_at10.webp',
+        stock: 5,
+        price: 349.99,
+        offer: 0
+    }
 ];
