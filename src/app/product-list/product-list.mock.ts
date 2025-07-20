@@ -1,5 +1,6 @@
 export const mockProducts = [
     {
+        id: 1,
         name: 'Pala Pro Carbon',
         description: 'Pala de pádel profesional de carbono, ligera y resistente.',
         type: 'Pala',
@@ -7,10 +8,12 @@ export const mockProducts = [
         size: 'Medium',
         image: 'assets/paleta_at10.webp',
         stock: 15,
+        quantity: 0,
         price: 249.99,
         offer: 10
     },
     {
+        id: 2,
         name: 'Pala Junior',
         description: 'Pala de pádel para niños, ligera y fácil de manejar.',
         type: 'Pala',
@@ -18,10 +21,12 @@ export const mockProducts = [
         size: 'Small',
         image: 'assets/paleta_at10.webp',
         stock: 10,
+        quantity: 0,
         price: 99.99,
         offer: 0
     },
     {
+        id: 3,
         name: 'Pala de Power',
         description: 'Pala de pádel de alta potencia, para jugadores avanzados.',
         type: 'Pala',
@@ -29,10 +34,12 @@ export const mockProducts = [
         size: 'Large',
         image: 'assets/paleta_at10.webp',
         stock: 5,
+        quantity: 0,
         price: 349.99,
         offer: 0
     },
     {
+        id: 4,
         name: 'Pala Pro Carbon',
         description: 'Pala de pádel profesional de carbono, ligera y resistente.',
         type: 'Pala',
@@ -40,11 +47,13 @@ export const mockProducts = [
         size: 'Medium',
         image: 'assets/paleta_at10.webp',
         stock: 15,
+        quantity: 0,
         price: 249.99,
         offer: 35  
 
     },
     {
+        id: 5,
         name: 'Pala Junior',
         description: 'Pala de pádel para niños, ligera y fácil de manejar.',
         type: 'Pala',
@@ -52,10 +61,12 @@ export const mockProducts = [
         size: 'Small',
         image: 'assets/paleta_at10.webp',
         stock: 10,
+        quantity: 0,
         price: 99.99,
         offer: 0
     },
     {
+        id: 6,
         name: 'Pala de Power',
         description: 'Pala de pádel de alta potencia, para jugadores avanzados.',
         type: 'Pala',
@@ -63,10 +74,12 @@ export const mockProducts = [
         size: 'Large',
         image: 'assets/paleta_at10.webp',
         stock: 5,
+        quantity: 0,
         price: 349.99,
         offer: 0
     },
     {
+        id: 7,
         name: 'Pala Pro Carbon',
         description: 'Pala de pádel profesional de carbono, ligera y resistente.',
         type: 'Pala',
@@ -74,10 +87,12 @@ export const mockProducts = [
         size: 'Medium',
         image: 'assets/paleta_at10.webp',
         stock: 15,
+        quantity: 0,
         price: 249.99,
         offer: 10
     },
     {
+        id: 8,
         name: 'Pala Junior',
         description: 'Pala de pádel para niños, ligera y fácil de manejar.',
         type: 'Pala',
@@ -85,10 +100,12 @@ export const mockProducts = [
         size: 'Small',
         image: 'assets/paleta_at10.webp',
         stock: 10,
+        quantity: 0,
         price: 99.99,
         offer: 5
     },
     {
+        id: 9,
         name: 'Pala de Power',
         description: 'Pala de pádel de alta potencia, para jugadores avanzados.',
         type: 'Pala',
@@ -96,6 +113,7 @@ export const mockProducts = [
         size: 'Large',
         image: 'assets/paleta_at10.webp',
         stock: 5,
+        quantity: 0,
         price: 349.99,
         offer: 0
     }

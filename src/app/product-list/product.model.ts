@@ -1,4 +1,5 @@
 export interface Product {
+    id: number;
     name: string;
     description: string;
     type: string;
@@ -6,6 +7,7 @@ export interface Product {
     size: string;
     image: string;
     stock: number;
+    quantity: number;
     price: number;
     offer: number;
 }
